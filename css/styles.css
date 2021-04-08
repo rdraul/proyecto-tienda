@@ -1,16 +1,14 @@
 .imagen{
     border: #FBAB7E solid 2px;
-}
-.primera img{
     width: 100%;
-    height: 500px;
+    height: 352px;
+}
+.imagen img{
+    width: 100%;
+    height: 348px;
 }
 .primera{
-    /* background: rgb(14,0,255); */
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-    margin-top: -2%;
-    margin-bottom: -1.6%;
+    width: 100%;
 }
 /*  */
 html{
@@ -97,7 +95,7 @@ background-color: #71b100;
 /*header*/
 .site-header{
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-    padding: 0rem 0 2rem 0;
+    padding: 0rem 0 1rem 0;
 }
 #titulo{
     font-family: 'Roboto', sans-serif;
@@ -120,6 +118,7 @@ background-position: center center;
 background-size: cover;
 height: 100vh;
 min-height: 60rem;
+padding-top: 2rem;
 }
 /* HEADER ENCABEZADO */
 .Contenido-header {
@@ -143,7 +142,7 @@ min-height: 60rem;
     text-align: center;
 }
 .barra{
-padding-top: 3rem;
+padding-top: 1rem;
 }
 @media (min-width:768px){
     .barra{
@@ -194,6 +193,10 @@ text-align: center;
     flex-basis: calc(33.3% - 1rem);
     text-align: center;
 }
+.Icono img{
+    width: 300px;
+        height: 200px;
+}
 .Icono i {
     font-size: 9rem;
 }
@@ -221,6 +224,9 @@ text-transform: uppercase;
     display: inline;
     padding: 0 11rem 0 11rem;
     font-size: 28.5rem;
+}
+.anuncio{
+    margin-bottom: 30px;
 }
 #facebook{
     color: blue;
@@ -433,22 +439,17 @@ textarea{
 }
 .pro{
     margin-top: -10px;
-    background-image: linear-gradient(62deg, #ff7f00 0%, #663300 100%);
+    /* background-image: linear-gradient(62deg, #ff7f00 0%, #663300 100%); */
     --fuentePrincipal: 'Staatliches', cursive;
     --primario: #ff7f00;
-    --primarioOscuro: #ff7f00;
-    --secundario: #ffce00;
+    --primarioOscuro: #00aeff;
+    --secundario: #FBAB7E;
 }
 .pro h1{
     color: var(--secundario);
     text-align: center;
     font-size: 4rem;
     font-family: var(--fuentePrincipal);
-}
-.contenedor1 {
-    max-width: 1000px;
-    width: 95%;
-    margin: 0 auto;
 }
 .lista-productos{
     display: grid;
